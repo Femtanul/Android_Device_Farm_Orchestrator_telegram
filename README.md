@@ -1,4 +1,4 @@
-# tg-autoreg
+# Farm acc telegram project
 
 > A multithreaded automation system for physical Android devices driven via ADB and uiautomator2, featuring event-driven webhook processing, a stateful resource pool with rotation and recovery, and a fault-tolerant UI automation flow.
 
@@ -39,7 +39,7 @@
 
 ## Overview
 
-**tg-autoreg** drives multiple physical Android devices in parallel through a complex, multi-step UI flow. It coordinates shared, rate-limited resources (phone numbers, email addresses, payment cards) via a stateful pool with automatic rotation, blocking timers, and recovery.
+**Android_Device_Farm_Orchestrator_telegram** drives multiple physical Android devices in parallel through a complex, multi-step UI flow. It coordinates shared, rate-limited resources (phone numbers, email addresses, payment cards) via a stateful pool with automatic rotation, blocking timers, and recovery.
 
 The system automates a repetitive account-registration workflow: launching a target app, injecting a purchased phone number, waiting for an SMS confirmation code delivered via webhook, confirming an email address, completing a payment flow with a rotating pool of bank cards, and linking the created account to an upstream API.
 
@@ -335,7 +335,7 @@ Please note: I take no responsibility for whether this project will work on your
 
 ## Обзор
 
-**tg-autoreg** — многопоточная система автоматизации физических Android-устройств. Управляет фермой устройств параллельно, координируя общие ресурсы (номера телефонов, email-адреса, банковские карты) через stateful-пул с автоматической ротацией, таймерами блокировки и восстановлением.
+**Android_Device_Farm_Orchestrator_telegram** — многопоточная система автоматизации физических Android-устройств. Управляет фермой устройств параллельно, координируя общие ресурсы (номера телефонов, email-адреса, банковские карты) через stateful-пул с автоматической ротацией, таймерами блокировки и восстановлением.
 
 Система автоматизирует повторяющийся процесс регистрации аккаунтов: запуск целевого приложения, ввод купленного номера телефона, ожидание SMS-кода через вебхук, подтверждение email-адреса, прохождение платёжного флоу с ротацией банковских карт и привязка созданного аккаунта к внешнему API.
 
