@@ -642,4 +642,5 @@ A little addition
 
 <img width="1030" height="563" alt="image" src="https://github.com/user-attachments/assets/88f2eed8-6573-4312-b427-b99854fccf77" />
 
-<img width="1030" height="563" alt="image" src="https://github.com/user-attachments/assets/ecda694c-80b2-4ab8-93df-ad8e9807feb7" />
+<img width="960" height="284" alt="image" src="https://github.com/user-attachments/assets/333d837c-60f3-4d4f-b983-cd6970aaeb71" />
+
